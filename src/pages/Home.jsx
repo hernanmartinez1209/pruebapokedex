@@ -1,14 +1,15 @@
 import React from 'react'
-import FormHome from './home/FormHome'
+import FormHome from '../components/home/FormHome'
 
 const Home = () => {
   return (
-    <div className='´pokedex' >
+    <article className='pokedex' >
+      <img src="./public/images/home/pokedex.png" alt="" />
     <h1 className='pokedex__tilte'> pokedex</h1>
     <h2 className='poquedex__subtitle'> hi trener</h2>
     <p className='pokedex__text'>parrrafo parrafo</p>
    <FormHome />
-    </div>
+    </article>
   )
 }
 
