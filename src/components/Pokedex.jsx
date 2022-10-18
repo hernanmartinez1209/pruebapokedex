@@ -38,11 +38,11 @@ const Pokedex = () => {
   return (
     <div>
         <header>
-<<<<<<< HEAD
+
 
             <h1>pokedex</h1>
             <p>welcome <span>{userName}</span></p>
-=======
+
          <div className='card__header-red'></div>
          <div className='card__header-black'></div>
          <div className='card__header-ball'>
@@ -50,7 +50,7 @@ const Pokedex = () => {
          </div>
         <img className="img__pokedex-card" src="/img/pokedexlogo.png" alt="" />
             <p className='card__welcome-msg'>welcome :<span><i class='bx bxs-user-circle'></i>{userName}</span></p>
->>>>>>> 7c7490bdb028d8474804b3c1da289b9e0614592c
+
         
         </header>
         <aside>
