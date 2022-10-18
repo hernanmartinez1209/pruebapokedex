@@ -6,8 +6,10 @@
     font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    padding-left: 50px;
-
+    background-color: #000; 
+    position: absolute;
+    top: 180px;
+    left: 20px;
 }    
 .card-container{
         width: 100%;
@@ -77,6 +79,13 @@
     margin-left: 70px;
     
 }
+.pagination{
+    width: 100%;
+    
+}
+.pagination__container{
+    font-size: 10px;
+}
 .select__pokedex{
     width: 100%;
     height: 70px;
@@ -102,7 +111,7 @@
     width: 100%;
     height: 0px;
     position: absolute;
-    top: 150px;
+    top: 180px;
     left: 950px;
 
 }

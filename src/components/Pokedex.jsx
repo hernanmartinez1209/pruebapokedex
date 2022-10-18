@@ -28,9 +28,9 @@ const Pokedex = () => {
       .catch(err => console.log(err))
     }
     }, [typeSelected])
-  console.log(pokemons);
+ 
   
-  const [page, setPage] = useState(10)
+  const [page, setPage] = useState(1)
   const [pokePerPage, setPokePerPage] = useState(8)
   const initialPoke = (page - 1) * pokePerPage
   const finalPoke =  page * pokePerPage  
@@ -40,8 +40,8 @@ const Pokedex = () => {
         <header>
 
 
-            <h1>pokedex</h1>
-            <p>welcome <span>{userName}</span></p>
+        
+            
 
          <div className='card__header-red'></div>
          <div className='card__header-black'></div>
@@ -59,8 +59,11 @@ const Pokedex = () => {
         setPage={setPage}
         page={page}
         pagesLength={pokemons && Math.ceil(pokemons?.length /pokePerPage)}
+        
       />
-      <SelectByType  setTypeSelected={setTypeSelected}/>
+      <SelectByType  setTypeSelected={setTypeSelected}
+      setPage={setPage}
+      />
      </aside>
       <main>
         <div className="card-container">

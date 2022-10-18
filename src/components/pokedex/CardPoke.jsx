@@ -11,7 +11,7 @@ const CardPoke = ({ url }) => {
       .then((res) => setPokemon(res.data))
       .catch((err) => console.log(err));
   }, []);
-  console.log(pokemon);
+ 
   const navigate = useNavigate();
   const handleClick = () => {
     navigate(`/pokedex/${pokemon.id}`);

@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CardPoke from "./CardPoke";
 
-const SelectByType = ({ setTypeSelected }) => {
+const SelectByType = ({ setTypeSelected ,setPage }) => {
   const [types, setTypes] = useState();
   useEffect(() => {
     const url = `https://pokeapi.co/api/v2/type`;
@@ -14,8 +14,9 @@ const SelectByType = ({ setTypeSelected }) => {
   // console.log(types);
 
   const handleChange = (e) => {
-    e.preventDefault;
+  
     setTypeSelected(e.target.value);
+    setPage(1)
   };
   return (
     <div className="select__pokedex">
