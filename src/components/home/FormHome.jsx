@@ -18,7 +18,7 @@ const FormHome = () => {
         type="text"
         placeholder="insert your name"
       />
-      <button className="pokedex__btn">atratapalos</button>
+      <button className="pokedex__btn">Catch them</button>
     </form>
   );
 };

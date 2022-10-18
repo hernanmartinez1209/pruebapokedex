@@ -1,43 +1,5 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-font-family: 'Inter', sans-serif;
-*//*.footer__red {
-  background-color: var(--color-red);
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.footer__black {
-  background-color: #222;
-  width: 100%;
-  height: 40px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.footer__circle {
-  width: 80px;
-  aspect-ratio: 1;
-  position: absolute;
-  background-color: #222;
-  border-radius: 50%;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.footer__circle-int {
-  width: 60px;
-  aspect-ratio: 1;
-  position: absolute;
-  background-color: #222;
-  border-radius: 50%;
-  left: 50%;
-  transform: translate(-50%, 10px);
-  border: 9px solid white;
-}
-*//*.App {
-  min-height: 100vh;
-  position: relative;
-}
-*/

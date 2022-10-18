@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+.home__pokedex{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/90/3c/e8/903ce82d065d12a760eeafe2aec9935a.jpg);
+}
+.cart_inicio{
+    background-color: rgba(221, 26, 26,0.5);
+    width: 90%;
+    height: 500px;
+    clip-path: polygon(76% 0, 100% 24%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px 2px black;
+    gap: 2rem;
+    
+}
+.cart_inicio:hover{
+    border: 3px solid #38E54D;
+}
+.img__pokedex{
+    width: 350px;
+    
+}
+.pokedex__input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    box-decoration-break: none;
+}
+.pokedex__btn{
+    height: 32px;
+    width: 100px;
+    background-color: #FF4A4A;
+    border: 1px solid; 
+    border-radius: 3px;
+    position: relative;
+    right: 10px;  
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px black;
+
+    
+}
+.pokedex__btn:hover{
+    border:solid 2px  #E6901E;
+     cursor: pointer;
+   
+    
+   
+}
