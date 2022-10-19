@@ -74,12 +74,10 @@ console.log(pokemon);
       <h2>stats</h2>
       <ul className="card__poke_stat">
             {pokemon?.stats.map((stat) => (
-            <div>
+            
               <li key={stat.stat.url}>{stat.stat.name} <span>{stat.base_stat}</span></li>
-            <div className='barra'>
-              <img className='centro' src="https://st4.depositphotos.com/13349494/22419/i/600/depositphotos_224191984-stock-photo-full-frame-view-empty-bright.jpg" alt="" />
-            </div>
-            </div>
+            
+              
               ))}
             
       </ul>
