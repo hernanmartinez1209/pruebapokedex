@@ -7,6 +7,7 @@ import Pagination from './pokedex/Pagination'
 import SelectByType from './pokedex/SelectByType'
 import stylesCardPoke from "./styles/stylesCardPoke.css";
 
+
 const Pokedex = () => {
   const userName =  useSelector(state =>state.userName)
  const[pokemons ,setPokemons] = useState()
@@ -77,6 +78,13 @@ const Pokedex = () => {
           }
         </div>
       </main>
+      <footer className='footer__container'>
+        <Pagination
+          setPage={setPage}
+          page={page}
+          pagesLength={pokemons && Math.ceil(pokemons?.length /pokePerPage)}
+        />
+      </footer>
     </div>
   )
 }

@@ -30,7 +30,7 @@ const limitPage = blockLength === currentBlock ? pagesLength : currentBlock * pa
     <div className="pagination">
       {page > 1 && 
         <div onClick={handlePrev} className="paguination__Prev pagination__active">
-      <i class="fa-solid fa-circle-left"></i>
+      <i className="fa-solid fa-circle-left"></i>
         </div>
       }
       {
@@ -55,7 +55,7 @@ const limitPage = blockLength === currentBlock ? pagesLength : currentBlock * pa
      }
       {page < pagesLength && 
         <div onClick={handleNetx} className="paguination__next pagination__active">
-         <i class="fa-solid fa-circle-right"></i>
+         <i className="fa-solid fa-circle-right"></i>
           
         </div>
       }

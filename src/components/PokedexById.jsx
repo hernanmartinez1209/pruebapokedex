@@ -77,6 +77,7 @@ console.log(pokemon);
       <h2>stats</h2>
       <ul className="card__poke_stat">
             {pokemon?.stats.map((stat) => (
+
             <div>
             <li key={stat.stat.url}>{stat.stat.name} <span>{stat.base_stat}</span></li>
             <div className='barra'>
@@ -86,6 +87,15 @@ console.log(pokemon);
             </div>
             ))}
             </ul>
+
+            
+              <li key={stat.stat.url}>{stat.stat.name} <span>{stat.base_stat}</span></li>
+            
+              
+              
+            
+      </ul>
+      
      </section>
        <h2 className='title__move-poke' >Movements</h2>
      <section className='moves__poke'>
