@@ -72,7 +72,7 @@ console.log(pokemon);
           </ul>
         </section>
         <section>
-          <h2>stats</h2>
+          <h2 className='title__stat'>stats</h2>
           <ul className="card__poke_stat">
             {pokemon?.stats.map((stat) => (
               <div>
