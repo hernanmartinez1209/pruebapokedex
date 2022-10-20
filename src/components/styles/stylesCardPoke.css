@@ -304,7 +304,6 @@ left: 170px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
 }
 @media (min-width: 700px) {
     .card-container{
