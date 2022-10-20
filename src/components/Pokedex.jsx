@@ -45,7 +45,7 @@ const Pokedex = () => {
           <div className='card__hader-ball-center'></div>
          </div>
           <img className="img__pokedex-card" src="/img/pokedexlogo.png" alt="" />
-            <p className='card__welcome-msg'>welcome :<span><i class='bx bxs-user-circle'></i>{userName}</span></p>        
+            <p className='card__welcome-msg'>welcome <i class="fa-solid fa-user"></i><span><i class='bx bxs-user-circle'></i>{userName}</span></p>        
         </header>
         <aside>
       <InputSearch />
