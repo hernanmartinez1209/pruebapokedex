@@ -1,11 +1,11 @@
 .pagination{
     margin-left: auto;
     margin-right: auto;
-    width: max-content;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    
 
  }
 .pagination__container{
@@ -18,7 +18,7 @@
 .paguination__Prev,
 .paguination__page{
     cursor: pointer;
-    width: 40px;
+    width: 30px;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
