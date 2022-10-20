@@ -39,20 +39,13 @@ const Pokedex = () => {
   return (
     <div>
         <header>
-
-
-        
-            
-
          <div className='card__header-red'></div>
          <div className='card__header-black'></div>
          <div className='card__header-ball'>
           <div className='card__hader-ball-center'></div>
          </div>
-        <img className="img__pokedex-card" src="/img/pokedexlogo.png" alt="" />
-            <p className='card__welcome-msg'>welcome :<span><i class='bx bxs-user-circle'></i>{userName}</span></p>
-
-        
+          <img className="img__pokedex-card" src="/img/pokedexlogo.png" alt="" />
+            <p className='card__welcome-msg'>welcome :<span><i class='bx bxs-user-circle'></i>{userName}</span></p>        
         </header>
         <aside>
       <InputSearch />
@@ -78,12 +71,18 @@ const Pokedex = () => {
           }
         </div>
       </main>
+      <Pagination
+            setPage={setPage}
+            page={page}
+            pagesLength={pokemons && Math.ceil(pokemons?.length /pokePerPage)}
+      />
       <footer className='footer__container'>
-        <Pagination
-          setPage={setPage}
-          page={page}
-          pagesLength={pokemons && Math.ceil(pokemons?.length /pokePerPage)}
-        />
+        <div className='card__footer-red'>
+          <div className='card__footer-black'></div>
+          <div className='card__footer-ball'>
+            <div className='card__footer-ball-center'></div>
+          </div>
+        </div>
       </footer>
     </div>
   )
