@@ -83,9 +83,7 @@ console.log(pokemon);
               </div>
             ))}
           </ul>
-          {/* <ul> 
-              <li key={stat.stat.url}>{stat.stat.name} <span>{stat.base_stat}</span></li>
-          </ul> */}
+        
         </section>
         <h2 className='title__move-poke' >Movements</h2>
         <section className='moves__poke'>
@@ -96,6 +94,7 @@ console.log(pokemon);
           </ul>
         </section>
       </article>
+      
   )
 }
 
